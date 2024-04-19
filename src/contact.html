@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+    <header class="border-b-[1px] h-[60px]">
+        <nav class="flex place-items-center justify-between h-full mx-[0%] md:mx-[10%]">
+            <div class="flex gap-4 items-end">
+                <a class="text-black font-bold" href="index.html">Home</a>
+                <a class="hover:text-black hover:font-bold" href="category.html">Category</a>
+                <a class="hover:text-black hover:font-bold" href="contact.html">Contact</a>
+                <a class="hover:text-black hover:font-bold" href="product.html">Products</a>
+            </div>
+        
+        </nav>
+        
+    </header>
+<body class="bg-gray-100">
+    <div class="container mx-auto py-12">
+        <h1 class="text-3xl font-bold mb-8 text-center">Get in Touch</h1>
+        <div class="flex flex-col md:flex-row md:justify-between">
+            <div class="contact-info mb-8 md:w-1/3">
+                <!-- Your Contact Information Here -->
+            </div>
+            <div class="contact-form md:w-2/3">
+                <h2 class="text-xl font-bold mb-4">Contact Form</h2>
+                <form action="#" method="POST">
+                    <div class="flex flex-col md:flex-row md:justify-between mb-4">
+                        <div class="mb-4 md:w-1/2 md:flex md:flex-col md:items-start md:mr-4">
+                            <label for="name" class="block text-gray-700">Your Name:</label>
+                            <input type="text" id="name" name="name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50" required>
+                        </div>
+                        <div class="mb-4 md:w-1/2 md:flex md:flex-col md:items-start">
+                            <label for="email" class="block text-gray-700">Your Email:</label>
+                            <input type="email" id="email" name="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50" required>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <label for="subject" class="block text-gray-700">Subject:</label>
+                        <input type="text" id="subject" name="subject" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block text-gray-700">Message:</label>
+                        <textarea id="message" name="message" rows="4" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50" required></textarea>
+                    </div>
+                    <button type="submit" class="bg-black text-white py-2 px-4 rounded-md hover:bg-black focus:outline-none focus:ring-2 focus:ring-black focus:ring-opacity-50">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
